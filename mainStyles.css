@@ -1,0 +1,174 @@
+/*Borders*/
+/*#header,*/
+/*#logo,*/
+/*#brand,*/
+/*#tagline,*/
+/*#navigation,*/
+/*#bodycontent,*/
+/*#announcements,*/
+/*#homecolumn2,*/
+/*#signupcampaign,*/
+/*#ladder*/
+/*{*/
+    /*border: 1px solid red;*/
+/*}*/
+
+/*body div{*/
+    /*border: 1px solid red;*/
+/*}*/
+
+/*colours*/
+/*#101074*/
+/*#D36C09*/
+/*#D3CE09, #F7F22F*/
+
+
+html{
+    min-height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    background: linear-gradient(45deg, #134d6b, #4d91a8);
+    /*background-image: url("Images/sand.jpg");*/
+}
+
+body{
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+/*Shaping*/
+
+#header{
+    float: left;
+    padding: 0 0 0;
+    width: 100%;
+}
+
+#logo{
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 1px 1px 1px;
+    height: 109px;
+    width: 109px;
+}
+
+#brand{
+    padding-top: .2em;
+    padding-bottom: .1em;
+    padding-left: .4em;
+    margin: 0;
+    height: 50%;
+    border-top: 3px solid #FF5716;
+    border-bottom: 3px solid #FF5716;
+    border-radius: 10px 10px 0 0;
+    font-size: x-large;
+    background-color: #9DB1CD;
+    color: #165cc2;
+}
+
+#tagline{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: .4em;
+    margin: 0;
+    height:50%;
+    background-color: #9DB1CD;
+    color: #165cc2;
+    font-size: 130%;
+    font-weight: normal;
+}
+
+#navigation {
+    width: 100%;
+    border-top: 3px solid #FF5716;
+    border-bottom: 3px solid #FF5716;
+    background-color: #9DB1CD;
+    border-radius: 0 0 10px 10px;
+}
+
+#navigation ul{
+    margin: 5px;
+    padding-left:0;
+    list-style: none;
+}
+
+#navigation li{
+    color: #165cc2;
+    display: inline;
+    border-style: hidden;
+    border-left: solid;
+    border-color: #FF5716;
+}
+
+
+
+#homecolumn1{
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+    width: 25%;
+    height: 100%;
+    padding-left: 5px;
+    border: solid 1px orangered;
+    background-color: #9DB1CD;
+}
+
+#homecolumn2{
+    float: right;
+    margin-top: 0;
+    margin-right: 0;
+    width: 73%;
+}
+
+#homecolumn2 div{
+    border: solid 1px orangered;
+    margin: 1px 1px 1px;
+    background-color: #9DB1CD;
+}
+
+
+a {
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+    color: #fcff32;
+}
+
+a:visited {
+    color: #fcff32;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #70a2ff;
+    /*background-color: navy;*/
+}
+
+a:active {
+    /*text-decoration: none;*/
+    color: #165cc2;
+    /*background-color: navy;*/
+}
+
+#slammersDescription{
+    float: left;
+}
+
+#signUpBody{
+    float: left;
+}
+
+#aboutVolleyBody{
+    float:left;
+}
+#contactUsBody{
+    float:left;
+}
+
+.contactColumn{
+    /*text-align: right;*/
+    border-right: solid;
+    border-color: #165cc2;
+}
