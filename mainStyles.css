@@ -29,6 +29,7 @@ body{
 }
 
 #brand{
+    /*text-decoration: none;*/
     padding-top: .2em;
     padding-bottom: .1em;
     padding-left: .4em;
@@ -42,9 +43,53 @@ body{
     color: #165cc2;
 }
 
+#brand a{
+    text-decoration: none;
+}
+
 #brand a:active, #brand a:hover, #brand a:visited{
     color: #165cc2;
     text-shadow: 0 0 10px #e6034b;
+    text-decoration: none;
+}
+
+.navLink a{
+    font-weight: bold;
+}
+
+.navLink a:link{
+    text-decoration: none;
+    color: #dfe12b;
+    text-shadow: 0 0 5px #165CC2;
+}
+
+.navLink a:visited {
+    color: #dfe12b;
+}
+
+.navLink a:hover {
+    text-decoration: none;
+    color: #dfe12b;
+    /*background-color: navy;*/
+    text-shadow: 0 0 5px #e6034b;
+}
+
+.navLink a:active{
+    color: #165cc2;
+    text-shadow: 0 0 5px #e6034b;
+}
+
+#signUpButton a{
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-size: 120%;
+    color: #165cc2;
+    text-shadow: 0 0 5px #dfe12b;
+    /*font-weight: bold;*/
+}
+
+#signUpButton a:hover{
+    text-shadow: 0 0 5px #e6034b;
 }
 
 #tagline{
@@ -90,23 +135,14 @@ body{
 
 
 
-#signUpButton, #signUpButton a{
-    font-size: large;
-    font-family: 'Lobster', cursive;
-    color: #e6034b;
-    text-shadow: 0 0 5px #70a2ff;
-}
-#signUpButton a:active, #signUpButton a:hover{
-    color: #165cc2;
-    text-shadow: 0 0 10px #e6034b;
-}
+
 /*END OF HEADER CSS*/
 
+/*START OF INDEX CSS*/
 #bodycontent{
     margin-top: 20px;
 }
 
-/*START OF INDEX CSS*/
 #homecolumn1{
     position: absolute;
     width: 21%;
@@ -159,32 +195,7 @@ body{
 }
 
 
-a {
-    font-weight: bold;
-}
 
-a:link {
-    text-decoration: none;
-    color: #dfe12b;
-}
-
-a:visited {
-    color: #dfe12b;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #dfe12b;
-    /*background-color: navy;*/
-    text-shadow: 0 0 5px #165CC2;
-
-}
-
-a:active {
-    color: #165cc2;
-    text-shadow: 0 0 5px #e6034b;
-
-}
 
 #slammersDescription div{
     margin: 20px 0 20px 0;
@@ -224,6 +235,10 @@ a:active {
     /*position: relative;*/
     width: 65%;
 }
+
+/*#aboutVolleyColumn1 p a:visited{*/
+    /*color: #dfe12b;*/
+/*}*/
 
 #aboutVolleyColumn2{
     /*float:right;*/
