@@ -35,6 +35,7 @@ body{
     padding-right: 12.5%;
 }
 
+
 /*Shaping*/
 
 #header{
@@ -66,18 +67,9 @@ body{
     color: #165cc2;
 }
 
-#headerpart1{
-    background: #9DB1CD;
-}
 
-#headerPart2{
 
-}
 
-/*#headerPart2{*/
-    /*position: relative;*/
-    /*right: 0;*/
-/*}*/
 
 #tagline{
     padding-top: 5px;
@@ -92,7 +84,6 @@ body{
 }
 
 #navigation {
-    width: 100%;
     border-top: 3px solid #FF5716;
     border-bottom: 3px solid #FF5716;
     background-color: #9DB1CD;
@@ -100,8 +91,11 @@ body{
 }
 
 #navigation ul{
+    /*float: left;*/
+    /*width: 85%;*/
+    /*float: left;*/
     margin: 5px;
-    padding-left:0;
+    padding-left: 0;
     list-style: none;
 }
 
@@ -111,59 +105,85 @@ body{
     border-style: hidden;
     border-left: solid;
     border-color: #FF5716;
+    padding-left: 5px;
 }
+
+.lobster{
+    font-family: 'Lobster', cursive;
+}
+
+#signUpButton, #signUpButton a{
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: #e6034b;
+    text-shadow: 0 0 5px #70a2ff;
+}
+#signUpButton a:active, #signUpButton a:hover{
+    color: #165cc2;
+    text-shadow: 0 0 10px #e6034b;
+}
+
 
 #bodycontent{
     /*float: left;*/
     margin-top: 20px;
+    /*background-color: #4b484b;*/
+    /*width: 100%;*/
+
 }
 
 #homecolumn1{
-    float: left;
-    margin-left: 0;
-    margin-top: 0;
-    width: 25%;
-    height: 100%;
-    padding-left: 5px;
-    border: solid 1px orangered;
+    position: absolute;
+    /*margin-left: 0;*/
+    /*margin-top: 0;*/
+    width: 21%;
+    height: 50%;
+    /*padding-left: 5px;*/
+    padding: 2px 10px 2px 5px;
+    border: solid 1px #FF5716;
     background-color: #9DB1CD;
+    overflow: auto;
 }
+
+
 
 #homecolumn2{
     float: right;
     margin-top: 0;
     margin-right: 0;
-    width: 73%;
-    /*padding: 0px 10px 0px 10px;*/
+    width: 70%;
 }
 
-/*#homecolumn2 div{*/
+
 #signupcampaign, #partyAd{
-    border: solid 1px orangered;
+    border: solid 1px #FF5716;
     margin: 0 1px 20px;
     margin-left: 10px;
     background-color: #9DB1CD;
     padding: 0px 10px 0px 10px;
 }
 
-#ladder{
-    border: solid 1px orangered;
-    background-color: #9DB1CD;
-    margin: 0 1px 20px;
-    padding: 0px 10px 5px 10px;
-    /*padding: top, right, bottom, left*/
-}
-
-#ladder img{
-    position:absolute;
-    top: 0px;
-    right: 0px;
+#signupcampaign img{
+    margin-top: 10px;
+    margin-left: 12px;
 }
 
 #ladder{
     position: relative;
     top: 20px;
+    border: solid 1px #FF5716;
+    background-color: #9DB1CD;
+    margin: 0 0px 20px;
+    height: 320px;
+    padding: 0px 10px 0px 10px;
 }
+
+#ladder img{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+}
+
 
 a {
     font-weight: bold;
@@ -180,39 +200,53 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: #70a2ff;
+    color: #dfe12b;
     /*background-color: navy;*/
+    text-shadow: 0 0 5px #165CC2;
+
 }
 
 a:active {
-    /*text-decoration: none;*/
     color: #165cc2;
-    /*background-color: navy;*/
+    text-shadow: 0 0 5px #e6034b;
+
 }
 
-#slammersDescription{
-    /*float: left;*/
+#slammersDescription div{
+    margin: 20px 0 20px 0;
+    padding: 2px 10px 2px 5px;
+    border: solid 1px #FF5716;
+    background-color: #9DB1CD;
+    overflow: auto;
 }
 
-#signUpBody{
-    /*float: left;*/
+#signUpBody div{
+    margin: 20px 0 20px 0;
+    padding: 2px 10px 2px 5px;
+    border: solid 1px #FF5716;
+    background-color: #9DB1CD;
+    overflow: auto;
 }
 
 #aboutVolleyBody{
-    /*float:left;*/
+    margin: 20px 0 20px 0;
+    padding: 2px 10px 2px 5px;
+    border: solid 1px #FF5716;
+    background-color: #9DB1CD;
+    overflow: auto;
 }
-/*#contactUsBody{*/
-    /*float:left;*/
-    /*margin-left: 0;*/
-/*}*/
+
+
+#contactUsBody{
+    margin: 20px 0 20px 0;
+    padding: 2px 10px 2px 5px;
+    border: solid 1px #FF5716;
+    background-color: #9DB1CD;
+    overflow: auto;
+}
 
 .contactColumn{
-    /*text-align: right;*/
     border-right: solid;
-    border-color: #165cc2;
-}
-
-.lobster{
-    font-family: 'Lobster', cursive;
+    border-color: #FF5716;
 }
 
