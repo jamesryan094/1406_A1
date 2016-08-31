@@ -11,10 +11,14 @@ body{
 }
 
 
-/*Shaping*/
+h2{
+    font-family: 'Lobster', cursive;
+    color: #165cc2;
+    text-shadow: 0 0 5px #dfe12b;
+}
+
 
 #header{
-    /*float: left;*/
     padding: 0 0 0;
     width: 100%;
 }
@@ -43,38 +47,47 @@ body{
     color: #165cc2;
 }
 
-#brand a{
+#brand a, #brand a:link{
     text-decoration: none;
+    text-shadow: 0 0 5px #dfe12b;
 }
 
-#brand a:active, #brand a:hover, #brand a:visited{
+#brand a:active,
+#brand a:hover,
+#brand a:visited{
     color: #165cc2;
     text-shadow: 0 0 10px #e6034b;
     text-decoration: none;
 }
 
-.navLink a{
+td{
+    /*border: solid 1px red;*/
+}
+
+.navLink{
     font-weight: bold;
 }
 
-.navLink a:link{
+
+.navLink:link{
     text-decoration: none;
     color: #dfe12b;
     text-shadow: 0 0 5px #165CC2;
 }
 
-.navLink a:visited {
+
+.navLink:visited{
     color: #dfe12b;
 }
 
-.navLink a:hover {
+
+.navLink:hover{
     text-decoration: none;
     color: #dfe12b;
-    /*background-color: navy;*/
     text-shadow: 0 0 5px #e6034b;
 }
 
-.navLink a:active{
+.navLink:active{
     color: #165cc2;
     text-shadow: 0 0 5px #e6034b;
 }
@@ -85,7 +98,6 @@ body{
     font-size: 120%;
     color: #165cc2;
     text-shadow: 0 0 5px #dfe12b;
-    /*font-weight: bold;*/
 }
 
 #signUpButton a:hover{
@@ -176,7 +188,21 @@ body{
     margin-left: 12px;
 }
 
+#signupcampaign p a{
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: #E6034B;
+}
+
+#signupcampaign p a:hover{
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: #E6034B;
+    text-shadow: 0 0 5px #165cc2;
+}
+
 /*END OF INDEX CSS*/
+
 
 #ladder{
     position: relative;
@@ -184,7 +210,7 @@ body{
     border: solid 1px #FF5716;
     background-color: #9DB1CD;
     margin: 0 0px 20px;
-    height: 320px;
+    height: 350px;
     padding: 0px 10px 0px 10px;
 }
 
@@ -192,6 +218,26 @@ body{
     position:absolute;
     top: 10px;
     right: 10px;
+}
+
+#ladder table tr td{
+    border-bottom: solid 1px #FF5716;
+}
+
+#ladder table tr th{
+    border-bottom: solid 2px #FF5716;
+}
+
+.signUpRow1{
+    width: 30%;
+}
+
+#signUpRowCheck{
+    /*width:100%*/
+}
+
+td{
+    /*border:solid 1px red;*/
 }
 
 
@@ -221,20 +267,36 @@ body{
     overflow: auto;
 }
 
+/*START OF ABOUT VOLLEYBALL CSS*/
 #aboutVolleyBody{
+    /*margin: 20px 0 20px 0;*/
+    /*padding: 2px 10px 2px 5px;*/
+    /*border: solid 1px #FF5716;*/
+    /*background-color: #9DB1CD;*/
+    /*overflow: auto;*/
+
+
+    /*background-image: url("Images/game.jpg");*/
+}
+
+/*#aboutVolleyColumn1 p, #aboutVolleyColumn1 h2{*/
+    /*!*float:left;*!*/
+    /*!*position: relative;*!*/
+    /*width: 65%;*/
+/*}*/
+
+#aboutVolleyText, #aboutVolleyLinks{
     margin: 20px 0 20px 0;
     padding: 2px 10px 2px 5px;
     border: solid 1px #FF5716;
     background-color: #9DB1CD;
-    overflow: auto;
-    /*background-image: url("Images/game.jpg");*/
 }
 
-#aboutVolleyColumn1 p, #aboutVolleyColumn1 h2{
-    /*float:left;*/
-    /*position: relative;*/
-    width: 65%;
-}
+/*#aboutVolleyLinks a{*/
+    /*text-decoration: none;*/
+    /*color: #dfe12b;*/
+    /*text-shadow: 0 0 5px #165CC2;*/
+/*}*/
 
 /*#aboutVolleyColumn1 p a:visited{*/
     /*color: #dfe12b;*/

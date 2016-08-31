@@ -14,11 +14,11 @@
     <h2 id="tagline" class="lobster">Join the Action!</h2>
     <div id="navigation">
         <ul>
-            <li class="navLink"><a href="index.html">Home</a></li>
-            <li class="navLink"><a href="aboutSlammers.html">About Slammers</a></li>
-            <li class="navLink"><a href="aboutVolleyball.html">About Volleyball</a></li>
-            <li class="navLink"><a href="ladder.html">Ladder</a></li>
-            <li class="navLink"><a href="contactUs.html">Contact Us</a></li>
+            <li><a class="navLink" href="index.html">Home</a></li>
+            <li><a class="navLink"  href="aboutSlammers.html">About Slammers</a></li>
+            <li><a class="navLink"  href="aboutVolleyball.html">About Volleyball</a></li>
+            <li><a class="navLink"  href="ladder.html">Ladder</a></li>
+            <li><a class="navLink"  href="contactUs.html">Contact Us</a></li>
             <li id="signUpButton"><a href="signUp.html">Sign Up</a></li>
         </ul>
     </div>
@@ -28,45 +28,57 @@
         <div id="form">
             <h2>Sign Up Form</h2>
             <form>
-                First name:  <input type="text" name="first_name"/>
-                <br>
-                Last name:  <input type="text" name="last_name"/>
-                <br>
-                Phone: <input type="text" name="phone"/>
-                Email: <input type="text" name="email"/>
-                <br>
-                Competition Day: <select name="dropdown">
-                <option value="Monday" selected>Monday</option>
-                <option value="Tuesday">Tuesday</option>
-                <option value="Wednesday">Wednesday</option>
-                <option value="Thursday">Thursday</option>
-                <option value="Friday">Friday</option>
-                <option value="Saturday">Saturday</option>
-                <option value="Sunday">Sunday</option>
-                </select>
-                <p>
-                    Competition Time:
-                    <input type="radio" name="time" value="afternoon"> Afternoon
-                    <input type="radio" name="time" value="evening"> Evening
-                </p>
-                <input type="checkbox" name="ConditionsRead" value="Agree"> I have read and agreed to Slammers' Playing Guidelines and Conditions
-                <!--<p>Note: By clicking submit, you agree to Slammers' Playing Guidelines</p>-->
-                <br>
-                <a href="signUpConfirm.html"><input type="button" name="submit" value="Submit"/></a>
-                <input type="button" name="reset"  value="Reset"/>
+                <table>
+                    <tr>
+                        <td class="signUpRow1">
+                            First name:  <input type="text" title="first_name"/>
+                        </td>
+                        <td class="signUpRow2">
+                            Last name:  <input type="text" title="last_name"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="signUpRow1">
+                            Phone: <input type="text" title="phone"/>
+                        </td>
+                        <td class="signUpRow2">
+                            Email: <input type="text" title="email"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="signUpRow1">
+                            Competition Day: <select title="dropdown">
+                                <option value="Monday" selected>Monday</option>
+                                <option value="Tuesday">Tuesday</option>
+                                <option value="Wednesday">Wednesday</option>
+                                <option value="Thursday">Thursday</option>
+                                <option value="Friday">Friday</option>
+                                <option value="Saturday">Saturday</option>
+                                <option value="Sunday">Sunday</option>
+                            </select>
+                        </td>
+                        <td class="signUpRow2">
+                            Competition Time:
+                            <input type="radio" title="time" value="afternoon"> Afternoon
+                            <input type="radio" title="time" value="evening"> Evening
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="signUpRowCheck">
+                            <input type="checkbox" title="ConditionsRead" value="Agree"> I have read and agree to <a class="navLink" href="aboutSlammers.html">Slammers' Playing Guidelines and Conditions</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="signUpRow1">
+                            <a href="signUpConfirm.html"><input type="button" name="submit" value="Submit"/></a>
+                        </td>
+                        <td class="signUpRow2">
+                            <input type="button" name="reset"  value="Reset"/>
+                        </td>
+                    </tr>
+                </table>
             </form>
         </div>
-        <h2>SIGNUP FORM GOES HERE!!!</h2>
-        <p>
-            We would like an online sign-up form so people can register their team on the site.
-            Data we need would be:
-            •	Contact person name
-            •	Contact phone number
-            •	Contact email address
-            •	Competition day (choose Monday – Saturday)
-            •	Competition time (choose afternoon or evening)
-            •	Tick-box for whether they have read and agree with our playing guidelines (below)
-        </p>
     </div>
 </body>
 </html>
