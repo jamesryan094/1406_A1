@@ -219,6 +219,9 @@ td{
     top: 10px;
     right: 10px;
 }
+#ladder table{
+    width:65%;
+}
 
 #ladder table tr td{
     border-bottom: solid 1px #FF5716;
@@ -228,18 +231,21 @@ td{
     border-bottom: solid 2px #FF5716;
 }
 
-.signUpRow1{
-    width: 30%;
-}
+/*.signUpRow1{*/
+    /*width: 40%;*/
+/*}*/
 
-#signUpRowCheck{
-    /*width:100%*/
-}
+/*#signUpRowCheck td{*/
+    /*!*width:100%*!*/
+/*}*/
 
 td{
     /*border:solid 1px red;*/
 }
 
+/*input{*/
+    /*display:inline-block;*/
+/*}*/
 
 
 
@@ -292,28 +298,6 @@ td{
     background-color: #9DB1CD;
 }
 
-/*#aboutVolleyLinks a{*/
-    /*text-decoration: none;*/
-    /*color: #dfe12b;*/
-    /*text-shadow: 0 0 5px #165CC2;*/
-/*}*/
-
-/*#aboutVolleyColumn1 p a:visited{*/
-    /*color: #dfe12b;*/
-/*}*/
-
-#aboutVolleyColumn2{
-    /*float:right;*/
-    /*width: 60px;*/
-    /*height: 100px;*/
-}
-/*#aboutVolleyColumn1 img{*/
-    /*float:right;*/
-    /*width: 60px;*/
-    /*height: 100px;*/
-    /*top:0;*/
-    /*right:0;*/
-/*}*/
 
 #contactUsBody{
     margin: 20px 0 20px 0;
@@ -326,5 +310,7 @@ td{
 .contactColumn{
     border-right: solid;
     border-color: #FF5716;
+    font-weight: bold;
 }
+
 

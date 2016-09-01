@@ -30,24 +30,39 @@
             <form>
                 <table>
                     <tr>
-                        <td class="signUpRow1">
-                            First name:  <input type="text" title="first_name"/>
+                        <td class="signUpColumn1">
+                            First name:
                         </td>
-                        <td class="signUpRow2">
-                            Last name:  <input type="text" title="last_name"/>
+                        <td class="signUpColumn2">
+                            <input type="text" title="first_name"/>
                         </td>
-                    </tr>
-                    <tr>
-                        <td class="signUpRow1">
-                            Phone: <input type="text" title="phone"/>
+                        <td class="signUpColumn3">
+                            Last name:
                         </td>
-                        <td class="signUpRow2">
-                            Email: <input type="text" title="email"/>
+                        <td class="signUpColumn3">
+                            <input type="text" title="last_name"/>
                         </td>
                     </tr>
                     <tr>
-                        <td class="signUpRow1">
-                            Competition Day: <select title="dropdown">
+                        <td class="signUpColumn1">
+                            Phone:
+                        </td>
+                        <td class="signUpColumn2">
+                            <input type="text" title="phone"/>
+                        </td>
+                        <td class="signUpColumn3">
+                            Email:
+                        </td>
+                        <td class="signUpColumn4">
+                            <input type="text" title="email"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="signUpColumn1">
+                            Competition Day:
+                            </td>
+                        <td class="signUpColumn2">
+                            <select title="dropdown">
                                 <option value="Monday" selected>Monday</option>
                                 <option value="Tuesday">Tuesday</option>
                                 <option value="Wednesday">Wednesday</option>
@@ -57,22 +72,24 @@
                                 <option value="Sunday">Sunday</option>
                             </select>
                         </td>
-                        <td class="signUpRow2">
+                        <td class="signUpColumn3">
                             Competition Time:
+                            </td>
+                        <td class="signUpColumn4">
                             <input type="radio" title="time" value="afternoon"> Afternoon
                             <input type="radio" title="time" value="evening"> Evening
                         </td>
                     </tr>
-                    <tr>
-                        <td id="signUpRowCheck">
+                    <tr id="signUpRowCheck">
+                        <td colspan="4">
                             <input type="checkbox" title="ConditionsRead" value="Agree"> I have read and agree to <a class="navLink" href="aboutSlammers.html">Slammers' Playing Guidelines and Conditions</a>
                         </td>
                     </tr>
                     <tr>
-                        <td class="signUpRow1">
+                        <td class="signUpColumn1">
                             <a href="signUpConfirm.html"><input type="button" name="submit" value="Submit"/></a>
                         </td>
-                        <td class="signUpRow2">
+                        <td class="signUpColumn2">
                             <input type="button" name="reset"  value="Reset"/>
                         </td>
                     </tr>
