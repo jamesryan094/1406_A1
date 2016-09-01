@@ -1,13 +1,16 @@
-html{
-    min-height: 100%;
-    font-family: Helvetica, Arial, sans-serif;
-    background: linear-gradient(30deg, #134d6b, #4d91a8);
-    /*background-image: url("Images/sand.jpg");*/
-}
+/*html{*/
+  /**/
+    /*!*background-image: url("Images/sand.jpg");*!*/
+/*}*/
+
 
 body{
     padding-left: 12.5%;
     padding-right: 12.5%;
+    min-height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    background: linear-gradient(30deg, #134d6b, #4d91a8);
+    /*background-repeat: no-repeat;*/
 }
 
 
@@ -175,7 +178,8 @@ td{
 }
 
 
-#signupcampaign, #partyAd{
+
+#homecolumn2 div{
     border: solid 1px #FF5716;
     margin: 0 1px 20px;
     margin-left: 10px;
@@ -183,23 +187,23 @@ td{
     padding: 0px 10px 0px 10px;
 }
 
-#signupcampaign img{
+#homecolumn2 img{
     margin-top: 10px;
     margin-left: 12px;
 }
 
-#signupcampaign p a{
-    font-family: 'Lobster', cursive;
-    text-decoration: none;
-    color: #E6034B;
-}
+/*#signupcampaign p a{*/
+    /*font-family: 'Lobster', cursive;*/
+    /*text-decoration: none;*/
+    /*color: #E6034B;*/
+/*}*/
 
-#signupcampaign p a:hover{
-    font-family: 'Lobster', cursive;
-    text-decoration: none;
-    color: #E6034B;
-    text-shadow: 0 0 5px #165cc2;
-}
+/*#signupcampaign p a:hover{*/
+    /*font-family: 'Lobster', cursive;*/
+    /*text-decoration: none;*/
+    /*color: #E6034B;*/
+    /*text-shadow: 0 0 5px #165cc2;*/
+/*}*/
 
 /*END OF INDEX CSS*/
 
@@ -218,6 +222,7 @@ td{
     position:absolute;
     top: 10px;
     right: 10px;
+    border: solid 1px #FF5716;
 }
 #ladder table{
     width:65%;
@@ -231,22 +236,6 @@ td{
     border-bottom: solid 2px #FF5716;
 }
 
-/*.signUpRow1{*/
-    /*width: 40%;*/
-/*}*/
-
-/*#signUpRowCheck td{*/
-    /*!*width:100%*!*/
-/*}*/
-
-td{
-    /*border:solid 1px red;*/
-}
-
-/*input{*/
-    /*display:inline-block;*/
-/*}*/
-
 
 
 #slammersDescription div{
@@ -257,13 +246,24 @@ td{
     overflow: auto;
 }
 
-#signUpBody div{
+#signUpBody{
     margin: 20px 0 20px 0;
-    padding: 2px 10px 2px 5px;
+    padding: 5px 10px 5px 10px;
     border: solid 1px #FF5716;
     background-color: #9DB1CD;
     overflow: auto;
 }
+#form{
+    float:left;
+    width: 70%;
+}
+#signUpBody img{
+    float: right;
+    width:250px;
+    height: 250px;
+    border: solid 1px #FF5716;
+}
+
 
 #signUpConfirmBody{
     margin: 20px 0 20px 0;
@@ -301,10 +301,19 @@ td{
 
 #contactUsBody{
     margin: 20px 0 20px 0;
-    padding: 2px 10px 2px 5px;
+    padding: 5px 10px 5px 10px;
     border: solid 1px #FF5716;
     background-color: #9DB1CD;
     overflow: auto;
+}
+
+#contactUsText{
+    float:left;
+}
+
+#contactUsImg{
+    float:right;
+    border: solid 1px #FF5716;
 }
 
 .contactColumn{
