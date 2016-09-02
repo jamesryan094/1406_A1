@@ -1,16 +1,14 @@
-/*html{*/
-  /**/
-    /*!*background-image: url("Images/sand.jpg");*!*/
-/*}*/
+/*SITE WIDE*/
+html{
+    background: linear-gradient(30deg, #134d6b, #4d91a8);
+    min-height: 100%;
+}
 
 
 body{
     padding-left: 12.5%;
     padding-right: 12.5%;
-    min-height: 100%;
     font-family: Helvetica, Arial, sans-serif;
-    background: linear-gradient(30deg, #134d6b, #4d91a8);
-    /*background-repeat: no-repeat;*/
 }
 
 
@@ -20,7 +18,7 @@ h2{
     text-shadow: 0 0 5px #dfe12b;
 }
 
-
+/*START OF HEADER CSS*/
 #header{
     padding: 0 0 0;
     width: 100%;
@@ -36,7 +34,6 @@ h2{
 }
 
 #brand{
-    /*text-decoration: none;*/
     padding-top: .2em;
     padding-bottom: .1em;
     padding-left: .4em;
@@ -63,9 +60,6 @@ h2{
     text-decoration: none;
 }
 
-td{
-    /*border: solid 1px red;*/
-}
 
 .navLink{
     font-weight: bold;
@@ -127,9 +121,6 @@ td{
 }
 
 #navigation ul{
-    /*float: left;*/
-    /*width: 85%;*/
-    /*float: left;*/
     margin: 5px;
     padding-left: 0;
     list-style: none;
@@ -148,13 +139,11 @@ td{
     font-family: 'Lobster', cursive;
 }
 
-
-
-
 /*END OF HEADER CSS*/
 
+
 /*START OF INDEX CSS*/
-#bodycontent{
+#indexBody {
     margin-top: 20px;
 }
 
@@ -168,16 +157,12 @@ td{
     overflow: auto;
 }
 
-
-
 #homecolumn2{
     float: right;
     margin-top: 0;
     margin-right: 0;
     width: 70%;
 }
-
-
 
 #homecolumn2 div{
     border: solid 1px #FF5716;
@@ -191,24 +176,32 @@ td{
     margin-top: 10px;
     margin-left: 12px;
 }
-
-/*#signupcampaign p a{*/
-    /*font-family: 'Lobster', cursive;*/
-    /*text-decoration: none;*/
-    /*color: #E6034B;*/
-/*}*/
-
-/*#signupcampaign p a:hover{*/
-    /*font-family: 'Lobster', cursive;*/
-    /*text-decoration: none;*/
-    /*color: #E6034B;*/
-    /*text-shadow: 0 0 5px #165cc2;*/
-/*}*/
-
 /*END OF INDEX CSS*/
 
 
-#ladder{
+/*START OF ABOUT_SLAMMERS CSS*/
+#aboutSlammersBody div{
+    margin: 20px 0 20px 0;
+    padding: 2px 10px 2px 5px;
+    border: solid 1px #FF5716;
+    background-color: #9DB1CD;
+    overflow: auto;
+}
+/*END OF ABOUT_SLAMMERS CSS*/
+
+
+/*START OF ABOUT_VOLLEYBALL CSS*/
+#aboutVolleyText, #aboutVolleyLinks{
+    margin: 20px 0 20px 0;
+    padding: 2px 10px 2px 5px;
+    border: solid 1px #FF5716;
+    background-color: #9DB1CD;
+}
+/*END OF ABOUT_VOLLEYBALL CSS*/
+
+
+/*START OF LADDER CSS*/
+#ladderBody{
     position: relative;
     top: 20px;
     border: solid 1px #FF5716;
@@ -218,87 +211,27 @@ td{
     padding: 0px 10px 0px 10px;
 }
 
-#ladder img{
+#ladderBody img{
     position:absolute;
     top: 10px;
     right: 10px;
     border: solid 1px #FF5716;
 }
-#ladder table{
+#ladderBody table{
     width:65%;
 }
 
-#ladder table tr td{
+#ladderBody table tr td{
     border-bottom: solid 1px #FF5716;
 }
 
-#ladder table tr th{
+#ladderBody table tr th{
     border-bottom: solid 2px #FF5716;
 }
+/*END OF LADDER CSS*/
 
 
-
-#slammersDescription div{
-    margin: 20px 0 20px 0;
-    padding: 2px 10px 2px 5px;
-    border: solid 1px #FF5716;
-    background-color: #9DB1CD;
-    overflow: auto;
-}
-
-#signUpBody{
-    margin: 20px 0 20px 0;
-    padding: 5px 10px 5px 10px;
-    border: solid 1px #FF5716;
-    background-color: #9DB1CD;
-    overflow: auto;
-}
-#form{
-    float:left;
-    width: 70%;
-}
-#signUpBody img{
-    float: right;
-    width:250px;
-    height: 250px;
-    border: solid 1px #FF5716;
-}
-
-
-#signUpConfirmBody{
-    margin: 20px 0 20px 0;
-    padding: 2px 10px 2px 5px;
-    border: solid 1px #FF5716;
-    background-color: #9DB1CD;
-    overflow: auto;
-}
-
-/*START OF ABOUT VOLLEYBALL CSS*/
-#aboutVolleyBody{
-    /*margin: 20px 0 20px 0;*/
-    /*padding: 2px 10px 2px 5px;*/
-    /*border: solid 1px #FF5716;*/
-    /*background-color: #9DB1CD;*/
-    /*overflow: auto;*/
-
-
-    /*background-image: url("Images/game.jpg");*/
-}
-
-/*#aboutVolleyColumn1 p, #aboutVolleyColumn1 h2{*/
-    /*!*float:left;*!*/
-    /*!*position: relative;*!*/
-    /*width: 65%;*/
-/*}*/
-
-#aboutVolleyText, #aboutVolleyLinks{
-    margin: 20px 0 20px 0;
-    padding: 2px 10px 2px 5px;
-    border: solid 1px #FF5716;
-    background-color: #9DB1CD;
-}
-
-
+/*START OF CONTACT_US CSS*/
 #contactUsBody{
     margin: 20px 0 20px 0;
     padding: 5px 10px 5px 10px;
@@ -321,5 +254,51 @@ td{
     border-color: #FF5716;
     font-weight: bold;
 }
+/*END OF CONTACT_US CSS*/
+
+
+/*START OF SIGN_UP CSS*/
+#signUpBody{
+    margin: 20px 0 20px 0;
+    padding: 5px 10px 5px 10px;
+    border: solid 1px #FF5716;
+    background-color: #9DB1CD;
+    /*overflow: auto;*/
+    height: 300px;
+}
+
+#form{
+    float:left;
+    width: 70%;
+}
+
+#signUpImage{
+    float: right;
+    width:250px;
+    height: 250px;
+    border: solid 1px #FF5716;
+}
+
+#signUpImage p{
+    font-size: x-small;
+    margin:0 0 0;
+}
+
+#signUpImage p a{
+    text-decoration: none;
+}
+
+/*END OF SIGN_UP CSS*/
+
+
+/*START OF SIGN_UP_CONFIRMATION CSS*/
+#signUpConfirmBody{
+    margin: 20px 0 20px 0;
+    padding: 2px 10px 2px 5px;
+    border: solid 1px #FF5716;
+    background-color: #9DB1CD;
+    overflow: auto;
+}
+/*END OF SIGN_UP_CONFIRMATION CSS*/
 
 
