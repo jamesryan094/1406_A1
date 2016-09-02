@@ -23,13 +23,13 @@ h2{
     margin:0 0 0;
 }
 
-#homecolumn2 div,
 #homecolumn1,
-#signUpConfirmBody,
-#signUpBody,
+#homecolumn2 div,
+#aboutSlammersBody div,
 #contactUsBody,
+#signUpBody,
 #aboutVolleyBody div,
-#aboutSlammersBody div{
+#signUpConfirmBody{
     margin: 20px 0 20px 0;
     padding: 2px 10px 2px 5px;
     border: solid 1px #FF5716;
@@ -198,27 +198,6 @@ h2{
 /*END OF INDEX CSS*/
 
 
-/*START OF ABOUT_SLAMMERS CSS*/
-/*#aboutSlammersBody div{*/
-    /*margin: 20px 0 20px 0;*/
-    /*padding: 2px 10px 2px 5px;*/
-    /*border: solid 1px #FF5716;*/
-    /*background-color: #9DB1CD;*/
-    /*overflow: auto;*/
-/*}*/
-/*END OF ABOUT_SLAMMERS CSS*/
-
-
-/*START OF ABOUT_VOLLEYBALL CSS*/
-/*#aboutVolleyBody div{*/
-    /*margin: 20px 0 20px 0;*/
-    /*padding: 2px 10px 2px 5px;*/
-    /*border: solid 1px #FF5716;*/
-    /*background-color: #9DB1CD;*/
-/*}*/
-/*END OF ABOUT_VOLLEYBALL CSS*/
-
-
 /*START OF LADDER CSS*/
 #ladderBody{
     position: relative;
@@ -251,13 +230,6 @@ h2{
 
 
 /*START OF CONTACT_US CSS*/
-/*#contactUsBody{*/
-    /*margin: 20px 0 20px 0;*/
-    /*padding: 5px 10px 5px 10px;*/
-    /*border: solid 1px #FF5716;*/
-    /*background-color: #9DB1CD;*/
-    /*overflow: auto;*/
-/*}*/
 
 #contactUsText{
     float:left;
@@ -277,13 +249,6 @@ h2{
 
 
 /*START OF SIGN_UP CSS*/
-#signUpBody{
-    /*margin: 20px 0 20px 0;*/
-    /*padding: 5px 10px 5px 10px;*/
-    /*border: solid 1px #FF5716;*/
-    /*background-color: #9DB1CD;*/
-    /*height: 300px;*/
-}
 
 #form{
     float:left;
@@ -303,8 +268,5 @@ h2{
 /*END OF SIGN_UP CSS*/
 
 
-/*START OF SIGN_UP_CONFIRMATION CSS*/
-
-/*END OF SIGN_UP_CONFIRMATION CSS*/
 
 
